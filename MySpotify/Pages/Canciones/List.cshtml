@@ -1,0 +1,45 @@
+﻿@page
+@model MySpotify.Pages.Canciones.ListModel
+@{
+    ViewData["Title"] = " Lista de Canciones";
+}
+@* solo html *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Agrega el siguiente script para la actualización automática del navegador -->
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</head>
+<body>
+    <!-- Contenido de tu página -->
+    @if (Model.Canciones != null)
+    {
+        <table class="table">
+            @foreach(var cancion in Model.Canciones)
+            {
+                <tr>
+                    <td>@cancion.Title</td>
+                    <td>@cancion.ArtistName</td>
+                    <td>@cancion.Duration</td>
+                    <td>@cancion.genero</td>
+                </tr>
+            } 
+        </table>
+    }
+    else
+    {
+        <p>No hay canciones disponibles.</p>
+    }
+
+    <div>@Model.Message</div>
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>   @* //no corrige el error *@
+</body>
+</html>

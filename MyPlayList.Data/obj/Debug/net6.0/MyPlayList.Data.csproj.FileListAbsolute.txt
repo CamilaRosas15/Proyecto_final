@@ -1,0 +1,15 @@
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\bin\Debug\net6.0\MyPlayList.Data.deps.json
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\bin\Debug\net6.0\MyPlayList.Data.dll
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\bin\Debug\net6.0\MyPlayList.Data.pdb
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\bin\Debug\net6.0\MyPlayList.Core.dll
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\bin\Debug\net6.0\MyPlayList.Core.pdb
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.csproj.AssemblyReference.cache
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.AssemblyInfoInputs.cache
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.AssemblyInfo.cs
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.csproj.CoreCompileInputs.cache
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.csproj.CopyComplete
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.dll
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\refint\MyPlayList.Data.dll
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\MyPlayList.Data.pdb
+C:\Users\camil\OneDrive\Escritorio\MyPlayList.Data\obj\Debug\net6.0\ref\MyPlayList.Data.dll
