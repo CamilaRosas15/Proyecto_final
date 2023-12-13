@@ -17,7 +17,7 @@ namespace MySpotify.Pages.Canciones
         private readonly IConfiguration config;
         private readonly ICancionesData cancionesData;
 
-        public string Message { get; set; }
+        public string? Message { get; set; }
         public IEnumerable<Cancion> Canciones{ get; set; }
         public ListModel(IConfiguration config, ICancionesData cancionesData)
         {

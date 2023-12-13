@@ -1,0 +1,30 @@
+﻿@page "cancionesId:int"     
+@* //error *"cancionId:int" *@
+@model MySpotify.Pages.Canciones.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>@Model.cancion.Title</h2>
+
+<div>
+    Id: @Model.cancion.Id
+</div>
+
+<div>
+    Artist: @Model.cancion.ArtistName
+</div>
+
+<div>
+    Duracion: @Model.cancion.Duration
+</div>
+
+<div>
+    Genero: @Model.cancion.genero
+</div>
+
+
+@if(Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}

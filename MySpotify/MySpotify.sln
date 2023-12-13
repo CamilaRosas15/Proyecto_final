@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySpotify", "MySpotify.csproj", "{AE61DA0B-16C6-421D-87F9-4C15541FA55F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySpotify", "MySpotify.csproj", "{AE61DA0B-16C6-421D-87F9-4C15541FA55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlayList.Core", "..\MyPlayList.Core\MyPlayList.Core.csproj", "{8CD44CB3-A3BC-4598-B391-CB165DE5A641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPlayList.Core", "..\MyPlayList.Core\MyPlayList.Core.csproj", "{8CD44CB3-A3BC-4598-B391-CB165DE5A641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPlayList.Data", "..\MyPlayList.Data\MyPlayList.Data.csproj", "{0C7CF582-4698-489E-AC2B-0B148A581097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyPlayList.Data", "..\MyPlayList.Data\MyPlayList.Data.csproj", "{0C7CF582-4698-489E-AC2B-0B148A581097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

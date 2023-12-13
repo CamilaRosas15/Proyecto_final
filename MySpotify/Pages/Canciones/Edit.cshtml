@@ -1,0 +1,33 @@
+﻿@page "{cancionesId:int?}"  
+@* //error *"cancionId:int" *@
+@* //aunmentar ? para editar NO para anadir (nuleable)puede tener nulo*@
+@model MySpotify.Pages.Canciones.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editing @Model.Cancion.Title</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Cancion.Id" />
+
+    <div class="form-group">
+        <label asp-for="Cancion.Title"></label>
+        <input asp-for="Cancion.Title" class="form-control" />
+        <span class="text-danger" asp-validation-for="Cancion.Title"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cancion.ArtistName"></label>
+        <input asp-for="Cancion.ArtistName" class="form-control" />
+        <span class="text-danger" asp-validation-for="Cancion.ArtistName"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cancion.genero"></label>
+        <select class="form-control" asp-for="Cancion.genero" asp-items="Model.Generos"></select>
+        <span class="text-danger" asp-validation-for="Cancion.genero"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

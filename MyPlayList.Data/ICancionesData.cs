@@ -10,5 +10,11 @@ namespace MyPlayList.Data
     public interface ICancionesData
     {
         IEnumerable<Cancion> GetAll();
+
+        Cancion GetById(int id);
+        //funcion edit
+        Cancion Update(Cancion updateCancion);
+
+        int Commit();
     }
 }

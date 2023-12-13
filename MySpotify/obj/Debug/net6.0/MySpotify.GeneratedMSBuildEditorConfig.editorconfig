@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\camil\OneDrive\Escritorio\MySpotify
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/camil/OneDrive/Escritorio/MySpotify/Pages/Canciones/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/camil/OneDrive/Escritorio/MySpotify/Pages/Canciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/camil/OneDrive/Escritorio/MySpotify/Pages/Canciones/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuY2lvbmVzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

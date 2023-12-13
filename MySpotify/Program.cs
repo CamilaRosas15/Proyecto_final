@@ -4,9 +4,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+//builder.Services.AddSingleton<ICancionesData,AccessCancionesData>(); access o sql
 builder.Services.AddSingleton<ICancionesData,InMemoryCancionesData>();
-var app = builder.Build();
+builder.Services.AddScoped<ICancionesData,InMemoryCancionesData>();
 
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
